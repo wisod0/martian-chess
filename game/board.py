@@ -12,7 +12,7 @@ class MartianChessBoard:
 
     def __init__(
         self, 
-        width: int | None = 4,  # Width of the board, defaults to 4
+        width: int | None = 5,  # Width of the board, defaults to 4
         height: int | None = 8, # Height of the board, defaults to 8
         default_setup: bool | None = True,  # Whether or not to automatically place the default pieces for a 2 player game.
         custom_players: list | None = None  # Option to provide your own list of player IDs
